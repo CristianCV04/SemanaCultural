@@ -1,0 +1,21 @@
+#titPerfil{
+	font-family: cursive;
+    background-color: rgba(240, 248, 255, 0.91);
+}
+#fotoperfil{
+	width: 150px;
+	height: 150px;
+}
+#tdfoto{
+	width: 35%;
+}
+#infop{
+	font-family: cursive;
+    font-size: large;
+}
+#tdfoto{
+	text-align: center;
+}
+#imgevento{
+	float: left;
+}

@@ -1,0 +1,138 @@
+.vistaeventos .nav li a{
+	padding: 7px 5px 0px;
+    color: rgba(0, 0, 0, 0.76);
+}
+#imgNoticia{
+	width: 85%;
+    height: 380px;
+    margin-left: 7%;
+    margin-right: 7%;
+    box-shadow: 1px 6px 17px 7px rgba(10, 3, 3, 0.63);
+}
+#invitacion{
+	margin-top: 20px;
+    background-color: rgba(4, 177, 115, 0.33);
+    font-family: cursive;
+    font-size: x-large;
+    color: #090A00;
+    padding: 0px 5px 0px;
+}
+#comentario{
+	width: 100%;
+	resize: none;
+	height: 60px;
+}
+#divcomentar{
+	background-color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 15px;
+}
+#divcomentar form{
+	/*border: 1px solid green;*/
+    padding: 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.47);
+}
+#imgperfilcomentario{
+	height: 60px;
+}
+#divbtnpublicar{
+	padding: 0px;
+}
+#listacomentarios{
+	background-color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.nombreevento{
+	background-color: rgba(4, 177, 115, 0.48);
+    margin-top: 0px;
+    color: white;
+}
+#btncalificar{
+    background-image: url("../img/starselec.png");
+    background-repeat: no-repeat;
+    width: 13%;
+    height: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+    padding-right: 18px;
+}
+#divcalificacion, #divfavorito, #divcompartir{
+	text-align: center;
+	padding: 0px;
+	border-left: 1px solid #6EC4A8;
+    border-right: 1px solid #6EC4A8;
+}
+#btnfavorito{
+	background-image: url("../img/favorito.png");
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+}
+#btncompartir{
+	background-image: url("../img/compartir.png");
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+}
+#horapaso{
+	width: 18%;
+}
+.pasoapaso th{
+	background-color: rgba(51, 51, 51, 0.31);
+}
+#titgallery{
+	background-color: rgba(51, 51, 51, 0.48);
+    color: white;
+    padding: 3px;
+    height: 37px;
+}
+#divnombregallery{
+	padding-right: 0px;
+}
+#divbtnsubir{
+	padding-left: 0px;
+	text-align: right;
+}
+#divbtnsubir #titgallery:hover{
+	color: green;
+}
+#imgdeevento{
+	border-right: 1px solid rgba(4, 177, 115, 0.48);;
+}
+#videodeevento{
+	border-left: 1px solid rgba(4, 177, 115, 0.48);;
+}
+#btndropdown{
+    color: #fff;
+    background-color: #F2F2F2;
+    border-color: #357ebd;
+}
+#ulbtnsubir{
+    text-align: left;
+}
+#btndropdown:hover{
+    color: #04B173;
+    background-color: #D1D4D8;
+    border-color: #285e8e;
+}
+#btncargar{
+    padding: 5px;
+    border-radius: 5px;
+}
+#btncargar:hover{
+    background-color: #858789;
+    color: white;
+}
+#video{
+    width: 100%;
+}
