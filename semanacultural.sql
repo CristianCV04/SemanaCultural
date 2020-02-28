@@ -149,6 +149,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
   `password` varchar(45) NOT NULL,
   `email` varchar(60) NOT NULL,
   `bloqueado` tinyint(1) DEFAULT FALSE,
+  `confirmado` tinyint(1) DEFAULT FALSE,
   `creado` datetime NOT NULL,
   PRIMARY KEY (`idUsuario`),
   UNIQUE KEY `username_UNIQUE` (`username`),
